@@ -1,0 +1,119 @@
+
+
+/* ------ Navbar classes ------ */
+
+.navbar-wrapper {
+    margin: 20px;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 30px;
+    text-align: left;
+    margin:0 auto;
+}
+
+
+
+/* ------ Image classes ------ */
+
+.img-float-left {
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+.img-main {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding: 10px;
+}
+
+.img-border {
+    border-style:solid;
+    border-width: 2pt;
+    color:darkcyan;
+}
+
+.row-two-figs-el {
+    float: left;
+    padding: 5px;
+}
+
+.fig-link:hover {
+    text-decoration: none;
+}
+
+/* Clear floats after image containers */
+.main-content::after {
+    content: "";
+    clear: both;
+    display:table;
+}
+
+/* Clear floats after image containers */
+.row-two-figs::after {
+    content: "";
+    clear: both;
+    display:table;
+}
+
+
+
+
+/* ------ Background/Container  classes ------ */
+
+body {
+    background-color: lightgrey;
+}
+
+.main-content {
+    background-color: white;
+    padding: 1px 30px 10px 30px;
+    margin: 20px;
+}
+
+.secondary-content {
+    background-color: white;
+    padding: 1px 30px 10px 30px;
+    margin: 20px;   
+}
+
+
+
+
+/* ------ Text  classes ------ */
+
+.main-content h1 {
+    font-size: 24pt;
+}
+
+h1 {
+    color: darkcyan;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+h4 {
+    text-align: center;
+    color: darkcyan;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 20pt;
+    padding-top: 10px;
+
+}
+
+.secondary-content {
+    font-size: 20pt;
+}
+
+
+/* ----- Formtting by id -----*/
+#cities_csv {
+    font-size: 10pt;
+}
+
+

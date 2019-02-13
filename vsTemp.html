@@ -56,20 +56,12 @@
             <div class="col-md-7">
 
                 <div class="main-content">
-                    <h1>Summary: Latitude vs. X</h1>
+                    <h1>Latitude vs. Max Temperature</h1>
                     <hr>
-                    <img src="figs/Fig1.png" width=250px alt="Latitude vs Temperature" class="img-float-left">
+                    <img src="figs/Fig1.png" width=500px alt="Latitude vs Temperature" class="img-main">
                     <p> 
-                        The purpose of this project was to analyze how weather changes as you get closer 
-                        to the equator.  To accomplish this analysis, we first pulled data from the
-                        OpenWeatherMap API to assembled a dataset on over 500 cities.
-                    </p>
-                    <p>
-                        After assembling the dataset, we used Matplotlib to plot various aspects of the
-                        weather vs. latitude.  Factors we looked at included: temperature, cloudiness,
-                        wind speed, and humidity.  This site provides the source data and visualizations
-                        created as part of the analysis, as well as explanations and descriptions of any
-                        observed trends and correlations.
+                        Maximum observed temperature decreases away from the equator, with a longer tail
+                        toward positive latitudes. 
                     </p>
                 </div>
 
@@ -84,7 +76,7 @@
                     <div class="row-two-figs">
                         <div class="row-two-figs-el">
                             <a class="fig-link" href="vsTemp.html">
-                                <img src="figs/Fig1.png" width=150px alt="Latitude vs Temperature">
+                                <img class="img-border" src="figs/Fig1.png" width=150px alt="Latitude vs Temperature">
                             </a>
                         </div>
                         <div class="row-two-figs-el">
@@ -97,7 +89,7 @@
                     <div class="row-two-figs">
                         <div class="row-two-figs-el">
                             <a class="fig-link" href="vsCloud.html">
-                                <img class="fig-border" src="figs/Fig3.png" width=150px alt="Latitude vs Cloudiness">
+                                <img src="figs/Fig3.png" width=150px alt="Latitude vs Cloudiness">
                             </a>
                         </div>
                         <div class="row-two-figs-el">
@@ -105,7 +97,9 @@
                                 <img src="figs/Fig4.png" width=150px alt="Latitude vs Wind Speed">
                             </a>
                         </div>
-                    </div>      
+                    </div>
+
+    
                 </div>  
             </div>
 
